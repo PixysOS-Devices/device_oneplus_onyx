@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_onyx.mk
+    $(LOCAL_DIR)/pixys_onyx.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_onyx-user \
-    lineage_onyx-userdebug \
-    lineage_onyx-eng
+    pixys_onyx-user \
+    pixys_onyx-userdebug \
+    pixys_onyx-eng
