@@ -270,6 +270,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
 
+# Tri-state keys
+PRODUCT_PACKAGES += \
+    KeyHandler
+
 # Touch features
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.onyx
@@ -316,5 +320,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapminfree=2m \
     dalvik.vm.heapmaxfree=8m
 
-# Inherit from oneplus settings
-$(call inherit-product, device/oneplus/settings/common.mk)
