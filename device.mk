@@ -197,10 +197,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dex2oat-threads=2 \
     dalvik.vm.image-dex2oat-threads=4
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sysfs
-
 # LMKD
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.lmk.critical_upgrade=true \
@@ -273,10 +269,6 @@ PRODUCT_PACKAGES += \
 # Tri-state keys
 PRODUCT_PACKAGES += \
     KeyHandler
-
-# Touch features
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.onyx
 
 # Vibrator
 PRODUCT_PACKAGES += \
