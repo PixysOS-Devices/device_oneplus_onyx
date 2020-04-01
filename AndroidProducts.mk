@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_onyx.mk
+    $(LOCAL_DIR)/pixys_onyx.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_onyx-user \
-    havoc_onyx-userdebug \
-    havoc_onyx-eng
+    pixys_onyx-user \
+    pixys_onyx-userdebug \
+    pixys_onyx-eng

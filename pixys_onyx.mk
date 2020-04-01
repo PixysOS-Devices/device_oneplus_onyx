@@ -21,13 +21,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk
 # Inherit from onyx device
 $(call inherit-product, device/oneplus/onyx/device.mk)
 
-# Inherit some common Havoc OS stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+# Inherit some common pixys stuff.
+$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
 # Call the proprietary setup
 $(call inherit-product, vendor/oneplus/onyx/onyx-vendor.mk)
 
-PRODUCT_NAME := havoc_onyx
+PRODUCT_NAME := pixys_onyx
 PRODUCT_DEVICE := onyx
 PRODUCT_BRAND := OnePlus
 PRODUCT_MANUFACTURER := OnePlus
@@ -42,5 +42,7 @@ BUILD_FINGERPRINT := OnePlus/OnePlus/OnePlus:6.0.1/MMB29M/10281213:user/release-
 TARGET_VENDOR := oneplus
 TARGET_VENDOR_PRODUCT_NAME := onyx
 
-# Unofficial build ID
+# Pixys stuff
 TARGET_UNOFFICIAL_BUILD_ID := YumeMichi
+PIXYS_BUILD_TYPE=OFFICIAL
+DEVICE_MAINTAINERS="Nikhil Gohil"
