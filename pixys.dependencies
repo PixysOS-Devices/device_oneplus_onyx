@@ -1,13 +1,13 @@
 [
   {
     "remote": "github",
-    "repository": " PixysOS-Devices/kernel_oneplus_onyx",
+    "repository": "PixysOS-Devices/kernel_oneplus_onyx",
     "target_path": "kernel/oneplus/onyx",
     "branch": "ten"
   },
   {
     "remote": "github",
-    "repository": " PixysOS-Devices/vendor_oneplus_onyx",
+    "repository": "PixysOS-Devices/vendor_oneplus_onyx",
     "target_path": "vendor/oneplus",
     "branch": "ten"
   },
