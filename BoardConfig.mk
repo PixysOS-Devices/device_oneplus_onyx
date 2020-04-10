@@ -108,6 +108,9 @@ endif
 # Exclude serif fonts for saving system.img size.
 EXCLUDE_SERIF_FONTS := true
 
+#Faceunlock
+TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK := true
+
 # Filesystem
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_BOOTIMAGE_PARTITION_SIZE     := 16777216
