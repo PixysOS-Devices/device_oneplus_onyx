@@ -28,3 +28,6 @@
 
 # Touch features
 /system/vendor/bin/hw/vendor\.lineage\.touch@1\.0-service\.onyx                    u:object_r:hal_lineage_touch_default_exec:s0
+
+#firmware
+/firmware                                              u:object_r:firmware_file:s0
